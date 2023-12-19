@@ -26,6 +26,7 @@ const orderschema = new mongoose.Schema({
         type: String,
         required: true,
     },
+    proceeded: { type: Boolean, default: false }
 });
 
 const orders = mongoose.model("orders", orderschema);

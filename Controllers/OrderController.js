@@ -42,7 +42,7 @@ const getallorders = async (req, res) => {
   }
 };
 
-// // delete order
+// delete order
 // exports.deletorder = async (req, res) => {
 //     const { userid } = req.body;
 //     try {

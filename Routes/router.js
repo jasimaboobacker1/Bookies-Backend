@@ -31,7 +31,7 @@ router.post('/addorder',OrderController.addorder)
 // getall orders
 router.get('/allorders',OrderController.getallorders)
 // delete order
-// router.get('/deleteorder',OrderController.deletorder)
+// router.delete('/deleteorder',OrderController.deletorder)
 
 
 
